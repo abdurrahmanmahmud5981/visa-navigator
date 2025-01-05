@@ -1,0 +1,298 @@
+[
+  {
+    "id": "VD001",
+    "Country_image": "https://flagpedia.net/data/flags/w320/ca.webp",
+    "Country_name": "Canada",
+    "Visa_type": "Tourist Visa",
+    "Processing_time": "15-30 days",
+    "Required_documents": [
+      "Valid passport",
+      "Visa application form",
+      "Recent passport-sized photograph",
+      "Proof of financial support",
+      "Travel itinerary"
+    ],
+    "Description": "Canada tourist visa allows individuals to explore Canada's scenic beauty and attractions.",
+    "Age_restriction": "No age restriction",
+    "Fee": "73",
+    "Validity": "6 months",
+    "Application_method": "Online or via Visa Application Center",
+    "Creation_date": "2024-12-05"
+  },
+  {
+    "id": "VD002",
+    "Country_image": "https://flagpedia.net/data/flags/w320/us.webp",
+    "Country_name": "United States",
+    "Visa_type": "Business Visa",
+    "Processing_time": "10-15 days",
+    "Required_documents": [
+      "Valid passport",
+      "DS-160 confirmation",
+      "Interview appointment letter",
+      "Employer support letter",
+      "Recent photograph"
+    ],
+    "Description": "The US business visa allows individuals to attend meetings, conferences, or negotiate contracts.",
+    "Age_restriction": "18 years and above",
+    "Fee": "160",
+    "Validity": "1 year, multiple entries",
+    "Application_method": "Online application and in-person interview",
+    "Creation_date": "2024-12-04"
+  },
+  {
+    "id": "VD003",
+    "Country_image": "https://flagpedia.net/data/flags/w320/gb.webp",
+    "Country_name": "United Kingdom",
+    "Visa_type": "Student Visa",
+    "Processing_time": "3 weeks",
+    "Required_documents": [
+      "Valid passport",
+      "CAS (Confirmation of Acceptance for Studies)",
+      "Proof of English proficiency",
+      "Proof of funds",
+      "Tuberculosis test results"
+    ],
+    "Description": "The UK student visa is issued to international students enrolled in an academic program.",
+    "Age_restriction": "16 years and above",
+    "Fee": "430",
+    "Validity": "Duration of the course + 4 months",
+    "Application_method": "Online application and biometric appointment",
+    "Creation_date": "2024-12-03"
+  },
+  {
+    "id": "VD004",
+    "Country_image": "https://flagpedia.net/data/flags/w320/jp.webp",
+    "Country_name": "Japan",
+    "Visa_type": "Work Visa",
+    "Processing_time": "5-10 days",
+    "Required_documents": [
+      "Valid passport",
+      "Visa application form",
+      "Job offer letter",
+      "Certificate of Eligibility",
+      "Recent photo"
+    ],
+    "Description": "Japan work visa is issued to individuals with a confirmed job offer in Japan.",
+    "Age_restriction": "18 years and above",
+    "Fee": "23",
+    "Validity": "1 year, renewable",
+    "Application_method": "Submit through Japanese Embassy or Consulate",
+    "Creation_date": "2024-12-02"
+  },
+  {
+    "id": "VD005",
+    "Country_image": "https://flagpedia.net/data/flags/w320/au.webp",
+    "Country_name": "Australia",
+    "Visa_type": "Visitor Visa",
+    "Processing_time": "20-30 days",
+    "Required_documents": [
+      "Valid passport",
+      "Visa application form",
+      "Financial documents",
+      "Health insurance",
+      "Travel itinerary"
+    ],
+    "Description": "The Australia visitor visa allows short-term travel for tourism or family visits.",
+    "Age_restriction": "No age restriction",
+    "Fee": "105",
+    "Validity": "12 months",
+    "Application_method": "Online application",
+    "Creation_date": "2024-12-01"
+  },
+  {
+    "id": "VD006",
+    "Country_image": "https://flagpedia.net/data/flags/w320/ae.webp",
+    "Country_name": "United Arab Emirates",
+    "Visa_type": "Tourist Visa",
+    "Processing_time": "3-5 days",
+    "Required_documents": [
+      "Valid passport",
+      "Recent photograph",
+      "Travel itinerary",
+      "Proof of accommodation",
+      "Proof of funds"
+    ],
+    "Description": "UAE tourist visa permits travelers to visit Dubai and other Emirates.",
+    "Age_restriction": "No age restriction",
+    "Fee": "82",
+    "Validity": "30 days",
+    "Application_method": "Online or through travel agencies",
+    "Creation_date": "2024-11-15"
+  },
+  {
+    "id": "VD007",
+    "Country_image": "https://flagpedia.net/data/flags/w320/fr.webp",
+    "Country_name": "France",
+    "Visa_type": "Schengen Visa",
+    "Processing_time": "15 days",
+    "Required_documents": [
+      "Valid passport",
+      "Visa application form",
+      "Travel insurance",
+      "Proof of accommodation",
+      "Flight reservation"
+    ],
+    "Description": "Schengen visa allows travel within 26 European countries including France.",
+    "Age_restriction": "No age restriction",
+    "Fee": "86",
+    "Validity": "90 days",
+    "Application_method": "Online or through French Embassy",
+    "Creation_date": "2024-11-16"
+  },
+  {
+    "id": "VD008",
+    "Country_image": "https://flagpedia.net/data/flags/w320/de.webp",
+    "Country_name": "Germany",
+    "Visa_type": "Work Visa",
+    "Processing_time": "4-6 weeks",
+    "Required_documents": [
+      "Valid passport",
+      "Visa application form",
+      "Job offer letter",
+      "Proof of qualifications",
+      "Proof of funds"
+    ],
+    "Description": "Germany work visa allows professionals to work and reside in Germany.",
+    "Age_restriction": "18 years and above",
+    "Fee": "81",
+    "Validity": "1 year, renewable",
+    "Application_method": "Submit through German Embassy or Consulate",
+    "Creation_date": "2024-11-05"
+  },
+  {
+    "id": "VD009",
+    "Country_image": "https://flagpedia.net/data/flags/w320/it.webp",
+    "Country_name": "Italy",
+    "Visa_type": "Study Visa",
+    "Processing_time": "15-20 days",
+    "Required_documents": [
+      "Valid passport",
+      "Proof of enrollment",
+      "Proof of funds",
+      "Health insurance",
+      "Travel itinerary"
+    ],
+    "Description": "Study visa for Italy allows students to pursue higher education in Italian institutions.",
+    "Age_restriction": "18 years and above",
+    "Fee": "54",
+    "Validity": "Course duration + 6 months",
+    "Application_method": "Apply at Italian Consulate",
+    "Creation_date": "2024-11-09"
+  },
+  {
+    "id": "VD010",
+    "Country_image": "https://flagpedia.net/data/flags/w320/kr.webp",
+    "Country_name": "South Korea",
+    "Visa_type": "Tourist Visa",
+    "Processing_time": "7-10 days",
+    "Required_documents": [
+      "Valid passport",
+      "Visa application form",
+      "Photograph",
+      "Proof of accommodation",
+      "Bank statement"
+    ],
+    "Description": "South Korea tourist visa permits travel to popular destinations like Seoul and Busan.",
+    "Age_restriction": "No age restriction",
+    "Fee": "31",
+    "Validity": "90 days",
+    "Application_method": "Apply at Korean Embassy",
+    "Creation_date": "2024-11-01"
+  },
+  {
+    "id": "VD011",
+    "Country_image": "https://cdn.pixabay.com/animation/2022/09/16/16/43/16-43-00-626_512.gif",
+    "Country_name": "Thailand",
+    "Visa_type": "Tourist Visa",
+    "Processing_time": "3-5 days",
+    "Required_documents": [
+      "Valid passport",
+      "Visa application form",
+      "Recent photo",
+      "Travel itinerary",
+      "Proof of funds"
+    ],
+    "Description": "Thailand tourist visa allows short visits for leisure purposes.",
+    "Age_restriction": "No age restriction",
+    "Fee": "55",
+    "Validity": "60 days",
+    "Application_method": "Online or Embassy submission"
+  },
+  {
+    "id": "VD012",
+    "Country_image": "https://cdn.pixabay.com/animation/2022/08/05/18/24/18-24-53-297_512.gif",
+    "Country_name": "Brazil",
+    "Visa_type": "Business Visa",
+    "Processing_time": "7-10 days",
+    "Required_documents": [
+      "Valid passport",
+      "Visa application form",
+      "Employer letter",
+      "Conference details",
+      "Photograph"
+    ],
+    "Description": "The business visa for Brazil allows professionals to engage in business activities.",
+    "Age_restriction": "18 years and above",
+    "Fee": "160",
+    "Validity": "90 days",
+    "Application_method": "Online or at Brazilian Embassy"
+  },
+  {
+    "id": "VD013",
+    "Country_image": "https://cdn.pixabay.com/animation/2022/08/21/20/03/20-03-41-348_512.gif",
+    "Country_name": "India",
+    "Visa_type": "Tourist Visa",
+    "Processing_time": "2-4 days",
+    "Required_documents": [
+      "Valid passport",
+      "Visa application form",
+      "Recent photo",
+      "Travel itinerary",
+      "Proof of funds"
+    ],
+    "Description": "Indian tourist visa allows visits to cultural and historical sites.",
+    "Age_restriction": "No age restriction",
+    "Fee": "25",
+    "Validity": "30 days",
+    "Application_method": "Online or at Indian Embassy"
+  },
+  {
+    "id": "VD014",
+    "Country_image": "https://cdn.pixabay.com/animation/2022/08/09/18/30/18-30-48-957_512.gif",
+    "Country_name": "Egypt",
+    "Visa_type": "Tourist Visa",
+    "Processing_time": "3-7 days",
+    "Required_documents": [
+      "Valid passport",
+      "Visa application form",
+      "Travel itinerary",
+      "Hotel booking confirmation",
+      "Proof of funds"
+    ],
+    "Description": "The Egypt tourist visa allows travelers to explore ancient sites like the Pyramids.",
+    "Age_restriction": "No age restriction",
+    "Fee": "25",
+    "Validity": "30 days",
+    "Application_method": "Online or at Egyptian Embassy"
+  },
+  {
+    "id": "VD015",
+    "Country_image": "https://flagpedia.net/data/flags/w702/my.webp",
+    "Country_name": "Malaysia",
+    "Visa_type": "Tourist Visa",
+    "Processing_time": "3-5 days",
+    "Required_documents": [
+      "Valid passport",
+      "Visa application form",
+      "Recent passport-sized photo",
+      "Proof of accommodation",
+      "Travel itinerary"
+    ],
+    "Description": "Malaysia tourist visa allows short visits to explore its diverse culture and attractions.",
+    "Age_restriction": "No age restriction",
+    "Fee": "26",
+    "Validity": "30 days",
+    "Application_method": "Online or Embassy submission",
+    "Creation_date": "2024-12-06"
+  }
+]
