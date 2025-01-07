@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import AuthContext from "../provider/AuthContext";
 import toast from "react-hot-toast";
 import logo from "../assets/logo.gif";
@@ -20,25 +20,33 @@ const Navber = () => {
         <NavLink to="/visaGuidelines">Visa Guidelines</NavLink>{" "}
       </li>
 
-
+     
       {user?.email && (
-        <>
-          <li>
-            {" "}
-            <NavLink to="/addVisa">Add Visa</NavLink>{" "}
-          </li>
-          <li>
-            {" "}
-            <NavLink to="/myAddedVisas">My Added Visas</NavLink>{" "}
-          </li>
-
-          <li>
-            {" "}
-            <NavLink to="/myVisaApplications">
-              My Visa Applications
-            </NavLink>{" "}
-          </li>
-        </>
+         <li className="dropdown">
+         <div tabIndex={0} role="button" className=" ">
+          Dashboard
+         </div>
+         <ul
+           tabIndex={0}
+           className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+         >
+           <li>
+             {" "}
+             <NavLink to="/addVisa">Add Visa</NavLink>{" "}
+           </li>
+           <li>
+             {" "}
+             <NavLink to="/myAddedVisas">My Added Visas</NavLink>{" "}
+           </li>
+ 
+           <li>
+             {" "}
+             <NavLink to="/myVisaApplications">
+               My Visa Applications
+             </NavLink>{" "}
+           </li>
+         </ul>
+       </li>
       )}
     </>
   );
@@ -74,14 +82,14 @@ const Navber = () => {
               {links}
             </ul>
           </div>
-          <div className="text-sm sm:text-xl font-bold flex items-center dark:gap-3  gap-2">
+          <Link to={'/'} className="text-sm sm:text-xl font-bold flex items-center dark:gap-3  gap-2">
             <img
               className="w-12 hidden sm:block dark:rounded"
               src={logo}
               alt=""
             />
             <span>VISA NAVIGATOR</span>
-          </div>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex ml-12">
           <ul className="menu menu-horizontal px-1 gap-1 font-semibold">
