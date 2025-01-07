@@ -53,7 +53,7 @@ const TravelTimelineExplorer = () => {
   ];
 
   return (
-    <div className="bg-white dark:bg-neutral rounded-2xl sm:py-12 sm:px-6">
+    <div className="dark:bg-base-300 bg-base-100  rounded-2xl sm:py-12 sm:px-6">
       <div className=" mx-auto ">
      
         <Slide direction="up" triggerOnce>

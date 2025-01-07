@@ -49,7 +49,7 @@ const ClientTestimonial = () => {
   ];
   return (
     <div>
-      <div className="py-20 bg-gradient-to-b from-base-100 to-base-200">
+      <div className="py-20 bg-gradient-to-b from-base-100 to-base-200 rounded-xl">
         <Slide direction="up" triggerOnce>
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">

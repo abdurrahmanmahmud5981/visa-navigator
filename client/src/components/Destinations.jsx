@@ -50,7 +50,7 @@ const Destinations = () => {
 
   return (
     <div>
-      <div className=" sm:bg-slate-50 dark:bg-neutral rounded-2xl py-16 sm:px-4">
+      <div className=" dark:bg-base-300 bg-base-100  rounded-2xl py-16 sm:px-4">
         <div className=" mx-auto max-w-6xl overflow-hidden">
           
           <Slide direction="up" triggerOnce>
@@ -69,7 +69,7 @@ const Destinations = () => {
                   cascade
                   damping={0.1}
                   className={`
-                bg-white dark:bg-base-100 dark:text-base-content rounded-2xl shadow-lg p-6 transition-all duration-300 
+                 dark:bg-base-100 dark:text-base-content rounded-2xl shadow-lg p-6 transition-all duration-300 
                 cursor-pointer group 
                 border-2 ${dest.borderColor}
                 hover:shadow-xl
@@ -85,7 +85,7 @@ const Destinations = () => {
                     <p className=" mb-4">{dest.description}</p>
 
                     <div
-                      className={` ${dest.bgColor} p-4 rounded-lg  dark:bg-neutral`}
+                      className={` ${dest.bgColor} p-4 rounded-lg bg-base-100  dark:bg-neutral`}
                     >
                       <h4 className="font-semibold mb-2 dark:text-base-content">
                         Key Highlights:

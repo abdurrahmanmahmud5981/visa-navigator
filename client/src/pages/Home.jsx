@@ -36,7 +36,7 @@ const Home = () => {
         <section>
           <Achievement />
         </section>
-        <section className="space-y-7 dark:bg-neutral dark:text-base-content sm:py-10 sm:bg-slate-50 sm:px-8 rounded-2xl">
+        <section className="space-y-7  dark:text-base-content sm:py-10 dark:bg-base-300 bg-base-100 sm:px-8 rounded-2xl">
           <h2 className="text-3xl font-bold text-center mb-5">
             <Typewriter
               words={[

@@ -15,8 +15,8 @@ const VisaCard = ({ visa }) => {
   } = visa;
   return (
     <>
-      <div className=" card relative bg-white dark:bg-base-100 shadow-xl border dark:textarea-bordered dark:text-base-content ">
-        <figure className="m-4 rounded-xl border dark:border-neutral">
+      <div className=" card relative dark:bg-base-300 bg-base-100 shadow-xl border dark:textarea-bordered dark:text-base-content ">
+        <figure className="m-4 rounded-xl border dark:border-neutral ">
           <img
             src={Country_image}
             alt={Country_name}
