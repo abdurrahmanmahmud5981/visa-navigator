@@ -19,6 +19,12 @@ const Navber = () => {
         {" "}
         <NavLink to="/visaGuidelines">Visa Guidelines</NavLink>{" "}
       </li>
+      <li>
+        {" "}
+        <NavLink to="/aboutUs" >
+          About Us
+        </NavLink>{" "}
+      </li>
 
      
       {user?.email && (

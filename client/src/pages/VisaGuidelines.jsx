@@ -103,9 +103,9 @@ const VisaGuidelines = () => {
 
       <div className="min-h-screen bg-base-100">
         {/* Hero Section */}
-        <div className="hero bg-base-200 py-16 bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900">
+        <div className=" hero py-16  ">
           <div className="hero-content text-center ">
-            <div className="max-w-3xl dark:text-neutral">
+            <div className="max-w-3xl ">
               <Fade cascade duration={1000}>
                 <h1 className="text-5xl font-bold mb-4 ">
                   <span>{text}</span>
@@ -115,12 +115,12 @@ const VisaGuidelines = () => {
                   Your comprehensive guide to successful visa applications
                 </p>
               </Fade>
-              <Player
+              {/* <Player
                 autoplay
                 loop
                 src="https://lottie.host/2d519f8a-fd06-4f8e-9d45-be71d7ea3b9e/Ku2tkR2qpA.json"
                 className="w-64 h-64 mx-auto"
-              />
+              /> */}
             </div>
           </div>
         </div>
@@ -166,7 +166,7 @@ const VisaGuidelines = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredGuidelines.map((section, index) => (
               <Zoom key={index} delay={index * 100}>
-                <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300">
+                <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-400/30">
                   <div className="card-body">
                     <h2 className="card-title flex items-center gap-3">
                       {section.icon}
@@ -180,9 +180,9 @@ const VisaGuidelines = () => {
                         </li>
                       ))}
                     </ul>
-                    <div className="card-actions justify-end mt-4">
+                    {/* <div className="card-actions justify-end mt-4">
                       <button className="btn btn-primary btn-sm">Learn More</button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </Zoom>

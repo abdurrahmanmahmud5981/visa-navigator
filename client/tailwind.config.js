@@ -8,7 +8,12 @@ export default {
   ],
   darkMode: 'class', // For Tailwind's dark mode support
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'visa_guide-bg': "url('./src/assets/visa_guide-bg.gif')",
+        // 'footer-texture': "url('/img/footer-texture.png')",
+      }
+    },
   },
   plugins: [daisyui],
   themes: [

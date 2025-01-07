@@ -12,6 +12,7 @@ import PrivateRoute from "./PrivateRoute";
 import SingleDetails from "../pages/SingleDetails";
 import NotFound from "../pages/NotFound";
 import VisaGuidelines from "../pages/VisaGuidelines";
+import AboutUs from "../pages/AboutUs";
 
 const routes = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const routes = createBrowserRouter([
       {
         path: "visaGuidelines",
         element: <VisaGuidelines />,
+      },
+      {
+        path: "aboutUs",
+        element: <AboutUs />,
       },
       {
         path: "addVisa",
