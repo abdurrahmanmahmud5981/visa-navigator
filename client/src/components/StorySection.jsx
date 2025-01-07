@@ -42,7 +42,7 @@ const StorySection = () => {
   ];
 
   return (
-    <div className="py-20 sm:bg-gradient-to-b from-base-100 to-base-200">
+    <div className="py-10 sm:bg-gradient-to-b from-base-100 to-base-200">
       <div className="max-w-7xl mx-auto sm:px-4">
         <Slide direction="up" triggerOnce>
           <div className="text-center mb-12">

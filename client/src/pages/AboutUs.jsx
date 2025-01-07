@@ -95,56 +95,16 @@ const AboutUs = () => {
 
       <div className="">
         {/* Our Story Section */}
-        <div className="max-w-7xl mx-auto px-4 py-16">
+        <div className="max-w-7xl mx-auto px-4 ">
           <StorySection />
 
           {/* Features Section */}
           <FeaturesSection />
 
-          {/* Contact CTA */}
-          <Fade>
-            <div className="card bg-primary text-primary-content my-16">
-              <div className="card-body text-center">
-                <h2 className="card-title justify-center text-2xl mb-4">
-                  Ready to Start Your Journey?
-                </h2>
-                <p className="mb-6">
-                  Get in touch with our visa experts today and let us help you
-                  navigate your global travel needs.
-                </p>
-                <div className="card-actions justify-center">
-                  <button className="btn btn-outline btn-ghost">
-                    Contact Us
-                  </button>
-                </div>
-              </div>
-            </div>
-          </Fade>
-
-          {/* Client Success Stories */}
-
-          <ClientStories />
+      
           <Testimonals />
 
-          {/* Enhanced Call-to-Action */}
-          <AttentionSeeker effect="pulse">
-            <div className="card bg-gradient-to-r from-primary to-secondary text-primary-content my-16 mx-4">
-              <div className="card-body text-center py-16">
-                <h2 className="card-title justify-center text-3xl mb-4">
-                  Begin Your Journey Today
-                </h2>
-                <p className="mb-6 max-w-2xl mx-auto">
-                  Take the first step towards your global adventures. Our expert
-                  team is ready to assist you with all your visa needs.
-                </p>
-                <div className="card-actions justify-center">
-                  <button className="btn btn-outline btn-lg glass hover:glass-hover">
-                    Contact Our Experts
-                  </button>
-                </div>
-              </div>
-            </div>
-          </AttentionSeeker>
+        
         </div>
       </div>
     </>

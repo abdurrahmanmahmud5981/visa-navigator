@@ -12,7 +12,7 @@ const Testimonals = () => {
       image: "https://plus.unsplash.com/premium_photo-1689565611422-b2156cc65e47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
       role: "Business Traveler",
       content:
-        "The visa process was incredibly smooth. Their expert team guided me through every step, making what seemed complicated very straightforward.",
+        "The visa process was incredibly smooth. Their expert team guided me through every step very straightforward.",
       rating: 5,
     },
     {
