@@ -5,8 +5,8 @@ const InteractiveCard = ({ children, className = "" }) => {
 
   return (
     <div
-      className={`transform transition-all duration-300 ${
-        isHovered ? "scale-105 shadow-2xl" : "scale-100 shadow-xl"
+      className={` bg-base-100 border rounded-xl  transform transition-all duration-300  ${
+        isHovered ? "scale-105 shadow-xl" : "scale-100 "
       } ${className}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}

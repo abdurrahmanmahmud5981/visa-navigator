@@ -8,6 +8,9 @@ import Destinations from "../components/Destinations";
 import TravelTimelineExplorer from "../components/TravelTimelineExplorer";
 import animationData from "../assets/loadingAnimation.json";
 import { Typewriter } from "react-simple-typewriter";
+import TeamSection from "../components/TeamSection";
+import Achievement from "../components/Achievement";
+import ClientTestimonial from "../components/ClientTestimonial";
 
 const Home = () => {
   const visaCollection = useLoaderData();
@@ -29,7 +32,9 @@ const Home = () => {
 
       <div className="space-y-12 sm:space-y-16 my-6 mt-2">
         <Banner />
-
+        <section>
+          <Achievement />
+        </section>
         <section className="space-y-7 dark:bg-neutral dark:text-base-content sm:py-10 sm:bg-slate-50 sm:px-8 rounded-2xl">
           <h2 className="text-3xl font-bold text-center mb-5">
             <Typewriter
@@ -78,6 +83,12 @@ const Home = () => {
         </section>
         <section>
           <TravelTimelineExplorer />
+        </section>
+        <section>
+          <TeamSection />
+        </section>
+        <section>
+          <ClientTestimonial/>
         </section>
       </div>
     </>

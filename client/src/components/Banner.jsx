@@ -86,7 +86,7 @@ const Banner = () => {
               </div>
             </div>
             <img
-              className=" w-full h-full object-center sm:object-cover xl:object-fill "
+              className="  object-center object-cover xl:object-fill "
               src={slide.image}
               alt={slide.title}
             />

@@ -74,7 +74,6 @@ const AboutUs = () => {
         <title>About Us | Visa Navigator</title>
       </Helmet>
 
-    
       <div className=" hero py-16  ">
         <div className="hero-content text-center ">
           <div className="max-w-3xl">
@@ -94,8 +93,6 @@ const AboutUs = () => {
         </div>
       </div>
 
-     
-
       <div className="">
         {/* Our Story Section */}
         <div className="max-w-7xl mx-auto px-4 py-16">
@@ -104,11 +101,6 @@ const AboutUs = () => {
           {/* Features Section */}
           <FeaturesSection />
 
-          {/* Achievement Stats */}
-          <Achievement />
-          {/* Team Section */}
-
-          <TeamSection />
           {/* Contact CTA */}
           <Fade>
             <div className="card bg-primary text-primary-content my-16">

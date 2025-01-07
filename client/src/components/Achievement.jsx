@@ -12,7 +12,7 @@ const Achievement = () => {
     return (
         <div>
             <Slide>
-            <div className="stats shadow w-full my-16">
+            <div className="stats shadow w-full">
               {achievements.map((stat, index) => (
                 <div key={index} className="stat place-items-center">
                   <div className="stat-figure text-primary">
