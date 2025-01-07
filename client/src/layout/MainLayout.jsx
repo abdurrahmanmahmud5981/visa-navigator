@@ -7,7 +7,7 @@ import ScrollProgress from "../components/ScrollProgress";
 const MainLayout = () => {
   return (
     <>
-      <ThemeController />
+      
       <header className="sticky top-0 border-b border-gray-200/50 dark:border-b-neutral/60 dark:bg-base-100/60   backdrop-blur-2xl  backdrop-filter z-50 bg-base-100/60">
         <Navber />
       </header>

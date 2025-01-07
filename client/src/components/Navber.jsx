@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import AuthContext from "../provider/AuthContext";
 import toast from "react-hot-toast";
 import logo from "../assets/logo.gif";
+import { ThemeController } from "./ThemeController";
 const Navber = () => {
   const { user, logOut } = useContext(AuthContext);
   const links = (
@@ -102,7 +103,7 @@ const Navber = () => {
             {links}
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end relative gap-2">
           {user ? (
             // <div className="flex items-center gap-2">
             //   {user?.photoURL && (
@@ -179,6 +180,7 @@ const Navber = () => {
               </NavLink>
             </div>
           )}
+          <ThemeController />
         </div>
       </div>
     </>
