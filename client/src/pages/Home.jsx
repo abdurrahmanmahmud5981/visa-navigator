@@ -11,6 +11,7 @@ import { Typewriter } from "react-simple-typewriter";
 import TeamSection from "../components/TeamSection";
 import Achievement from "../components/Achievement";
 import ClientTestimonial from "../components/ClientTestimonial";
+import ContactUs from "../components/ContactUs";
 
 const Home = () => {
   const visaCollection = useLoaderData();
@@ -89,6 +90,9 @@ const Home = () => {
         </section>
         <section>
           <ClientTestimonial/>
+        </section>
+        <section>
+          <ContactUs/>
         </section>
       </div>
     </>
