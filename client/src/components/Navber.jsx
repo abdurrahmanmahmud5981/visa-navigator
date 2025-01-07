@@ -13,22 +13,33 @@ const Navber = () => {
       </li>
       <li>
         {" "}
-        <NavLink to="/allVisas">All Visas</NavLink>{" "}
+        <NavLink to="/allVisas">Visas</NavLink>{" "}
+      </li>
+      <li>
+        {" "}
+        <NavLink to="/visaGuidelines">Visa Guidelines</NavLink>{" "}
       </li>
 
-      <li>
-        {" "}
-        <NavLink to="/addVisa">Add Visa</NavLink>{" "}
-      </li>
-      <li>
-        {" "}
-        <NavLink to="/myAddedVisas">My Added Visas</NavLink>{" "}
-      </li>
 
-      <li>
-        {" "}
-        <NavLink to="/myVisaApplications">My Visa Applications</NavLink>{" "}
-      </li>
+      {user?.email && (
+        <>
+          <li>
+            {" "}
+            <NavLink to="/addVisa">Add Visa</NavLink>{" "}
+          </li>
+          <li>
+            {" "}
+            <NavLink to="/myAddedVisas">My Added Visas</NavLink>{" "}
+          </li>
+
+          <li>
+            {" "}
+            <NavLink to="/myVisaApplications">
+              My Visa Applications
+            </NavLink>{" "}
+          </li>
+        </>
+      )}
     </>
   );
   return (

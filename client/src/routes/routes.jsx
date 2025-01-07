@@ -11,6 +11,7 @@ import ForgotPassword from "../pages/ForgotPassword";
 import PrivateRoute from "./PrivateRoute";
 import SingleDetails from "../pages/SingleDetails";
 import NotFound from "../pages/NotFound";
+import VisaGuidelines from "../pages/VisaGuidelines";
 
 const routes = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const routes = createBrowserRouter([
         path: "allVisas",
         element: <AllVisas />,
         loader: () => fetch("https://visa-navigatore-server.vercel.app/allVisas"),
+      },
+      {
+        path: "visaGuidelines",
+        element: <VisaGuidelines />,
       },
       {
         path: "addVisa",
@@ -54,9 +59,9 @@ const routes = createBrowserRouter([
       {
         path: "single-details/:id",
         element: (
-          <PrivateRoute>
+          
             <SingleDetails />
-          </PrivateRoute>
+       
         ),
         loader: ({ params }) =>
           fetch(`https://visa-navigatore-server.vercel.app/visas-collection/${params?.id}`),
