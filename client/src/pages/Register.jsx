@@ -70,7 +70,7 @@ const Register = () => {
         <meta name="description" content="Register for Visa Navigator" />
         <meta name="og:title" content="Register - Visa Navigator" />
       </Helmet>
-      <div className="min-h-screen flex items-center justify-center dark:bg-neutral sm:bg-gray-50 py-12  sm:px-6 lg:px-8">
+      <div className="min-h-screen flex items-center justify-center dark:bg-neutral  py-12  sm:px-6 lg:px-8">
         <div className="max-w-6xl w-full">
           <div className="card grid md:grid-cols-2 border px-0 bg-base-100 shadow-xl mx-auto">
             <div className="">
