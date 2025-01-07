@@ -27,7 +27,7 @@ const Home = () => {
         />
       </Helmet>
 
-      <div className="space-y-12 sm:space-y-28 my-6">
+      <div className="space-y-12 sm:space-y-16 my-6 mt-2">
         <Banner />
 
         <section className="space-y-7 dark:bg-neutral dark:text-base-content sm:py-10 sm:bg-slate-50 sm:px-8 rounded-2xl">

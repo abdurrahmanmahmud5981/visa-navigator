@@ -64,7 +64,7 @@ const Banner = () => {
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         onAutoplayTimeLeft={onAutoplayTimeLeft}
-        className=" rounded-xl sm:h-[640px] shadow -z-50 "
+        className=" rounded-xl sm:h-[500px] shadow -z-50 "
       >
         {bannerSlides.map((slide, index) => (
           <SwiperSlide className="relative" key={index}>
