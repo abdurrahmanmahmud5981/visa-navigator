@@ -32,11 +32,15 @@ const FeaturesSection = () => {
   return (
     <div>
       <div className="my-16">
-        <Slide>
-            <h2 className="text-4xl font-bold text-center mb-16">
-              Why Choose <span className="text-primary">Us</span>
+     
+        <Slide direction="up" triggerOnce>
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold mb-4">
+            Why Choose <span className="text-primary">Us</span>
             </h2>
-          </Slide>
+            <div className="w-24 h-1 bg-primary mx-auto rounded-full" />
+          </div>
+        </Slide>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => (
             <Zoom key={index} delay={index * 100}>

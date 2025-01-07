@@ -42,8 +42,8 @@ const StorySection = () => {
   ];
 
   return (
-    <div className="py-20 bg-gradient-to-b from-base-100 to-base-200">
-      <div className="max-w-7xl mx-auto px-4">
+    <div className="py-20 sm:bg-gradient-to-b from-base-100 to-base-200">
+      <div className="max-w-7xl mx-auto sm:px-4">
         <Slide direction="up" triggerOnce>
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">
@@ -146,7 +146,7 @@ const StorySection = () => {
                     src="https://lottie.host/story-animation/animation.json"
                     className="w-full h-96"
                   />
-                  <div className="grid grid-cols-2 gap-4 mt-6">
+                  <div className="grid sm:grid-cols-2 gap-4 mt-6">
                     <div className="stat bg-base-200/50 rounded-xl">
                       <div className="stat-figure text-primary">
                         <FaGlobe className="text-3xl" />

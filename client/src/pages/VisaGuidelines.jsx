@@ -143,7 +143,7 @@ const VisaGuidelines = () => {
 
           {/* Search and Filter Section */}
           <div className="mb-12">
-            <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
+            <div className="flex flex-col lg:flex-row gap-4 items-center justify-between">
               <div className="form-control flex-1">
                 <div className="input-group relative">
                   <input
