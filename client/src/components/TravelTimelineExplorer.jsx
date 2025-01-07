@@ -1,4 +1,4 @@
-import { Zoom } from "react-awesome-reveal";
+import { Slide, Zoom } from "react-awesome-reveal";
 import { BiPlanet } from "react-icons/bi";
 import { BsShieldCheck } from "react-icons/bs";
 import { FiCreditCard, FiFileText, FiMapPin } from "react-icons/fi";
@@ -55,9 +55,15 @@ const TravelTimelineExplorer = () => {
   return (
     <div className="bg-white dark:bg-neutral rounded-2xl sm:py-12 sm:px-6">
       <div className=" mx-auto ">
-        <h2 className="text-3xl font-bold text-center mb-12 ">
-          <Zoom>Comprehensive Travel Expedition Framework</Zoom>
-        </h2>
+     
+        <Slide direction="up" triggerOnce>
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bold mb-4">
+              Travel Expedition <span className="text-primary">Framework</span>
+              </h2>
+              <div className="w-24 h-1 bg-primary mx-auto rounded-full" />
+            </div>
+          </Slide>
 
         <div className=" grid  sm:grid-cols-2  xl:grid-cols-3 gap-6">
           {travelPreparationStages?.map((stage, index) => (

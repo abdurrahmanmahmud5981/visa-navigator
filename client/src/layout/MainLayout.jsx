@@ -2,7 +2,6 @@ import { Outlet } from "react-router-dom";
 import Navber from "../components/Navber";
 import { Toaster } from "react-hot-toast";
 import Footer from "../components/Footer";
-import { ThemeController } from "../components/ThemeController";
 import ScrollProgress from "../components/ScrollProgress";
 const MainLayout = () => {
   return (

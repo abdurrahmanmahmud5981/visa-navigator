@@ -52,9 +52,15 @@ const Destinations = () => {
     <div>
       <div className=" sm:bg-slate-50 dark:bg-neutral rounded-2xl py-16 sm:px-4">
         <div className=" mx-auto max-w-6xl overflow-hidden">
-          <h2 className="text-3xl font-bold text-center mb-12  ">
-            <Slide direction="down">Visa Insights Explorer</Slide>
-          </h2>
+          
+          <Slide direction="up" triggerOnce>
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bold mb-4">
+              Visa Insights <span className="text-primary">Explorer</span>
+              </h2>
+              <div className="w-24 h-1 bg-primary mx-auto rounded-full" />
+            </div>
+          </Slide>
 
           <div className="grid sm:grid-cols-2  lg:grid-cols-3 gap-6">
             {destinations.map((dest, index) => (
